@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+
+        <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="@string/date"
+        android:inputType="date"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:onClick="openSecondActivity"
+        android:text="@string/sign_up" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+
+    <TextView
+        android:id="@+id/my_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:text="@string/my_name" />
+
+    </LinearLayout>
+
+
+</ScrollView>

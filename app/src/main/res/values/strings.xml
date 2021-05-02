@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string name="welcome">Thanks for Signing Up</string>
+    <string name="username">username</string>
+    <string name="name">Your Name</string>
+    <string name="email">Email</string>
+    <string name="date">Birthday</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="my_name">Fernandez, Maria 5/1/2021</string>
+    <string name="backButton">Go Back</string>
+</resources>
