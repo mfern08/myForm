@@ -57,15 +57,15 @@
             android:layout_width="match_parent"
             android:layout_height="10dp"/>
 
-    <EditText
+    <TextView
         android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="5dp"
         android:layout_gravity="center"
+        android:gravity="center"
         android:ems="10"
-        android:hint="@string/date"
-        android:inputType="date"/>
+        android:textSize="17sp"
+        android:hint="@string/enter_birthday"/>
 
         <Space
             android:layout_width="match_parent"

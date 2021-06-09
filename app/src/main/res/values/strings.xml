@@ -8,4 +8,5 @@
     <string name="sign_up">Sign Up</string>
     <string name="my_name">Fernandez, Maria 5/1/2021</string>
     <string name="backButton">Go Back</string>
+    <string name="enter_birthday">Click to enter Birthday (Must be 18+)</string>
 </resources>
